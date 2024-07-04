@@ -33,17 +33,7 @@ nav{
     font-weight: 600;
     font-size: 16px;
 }
-.first-button{
-    width: 190px;
-    height: 40px;
-    padding: 10px 24px 10px 24px;
-    border-radius: 41px;
-    background-color: #E02C6D;
-    color: white;
-    
-    
 
-}
 
 /* Main part CSS */
 
@@ -59,7 +49,6 @@ nav{
 }
 .half-width h1{
     
-    
     font-weight:700;
     font-size: 50px;
 }
@@ -67,6 +56,17 @@ nav{
     width: 440px;
     height: 414px;
 }
+.first-button{
+    width: 170px;
+    height: 40px;
+    padding: 10px 24px 10px 24px;
+    border-radius: 41px;
+    background-color: #E02C6D;
+    color: white;
+    font-weight: 800;
+
+}
+
 
 /* Second Section css */
 .nav-logos{
@@ -76,4 +76,158 @@ nav{
 
 .nav-logos object{
     margin: 20px;
+}
+
+/* Third Section Csss */
+
+.collections h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.popular-collection{
+   
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+   
+    
+}
+.photo-frame{
+    width: 329px;
+    height: 476px; 
+    border-radius: 5px;
+    background-color:  #FFFFFF;
+    box-shadow: 8px 5px 20px 5px rgba(211, 211, 211, 0.718);
+    margin: 15px;
+   
+
+}
+.photo{
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+    padding: 15px;
+}
+.photo-detail{
+    padding: 0px 15px 40px 15px;
+
+}
+.photo-detail h2{
+    font-size: 28px;
+    font-weight: 500;
+    text-align: left;
+    margin: 0;
+}
+.price{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    margin: 10px 0px 10px 0px;
+
+}
+.star{
+    margin: 0;
+}
+.fa-star,.fa-star-half-stroke{
+    color: goldenrod;
+}
+.fa-star-half-stroke{
+    margin-right: 5px;
+}
+
+.shipping-info{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.018em;
+    text-align: left;
+    color:#787885;
+    margin: 0;
+}
+.see-arrow{
+    text-decoration: none;
+    color: #E02C6D;
+    margin-left: 85%;
+}
+.fa-arrow-right{
+    margin-left: 8px;
+}
+
+/* Fourth section css */
+.gear{
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-bottom: 80px;
+}
+
+.gear-photo img{
+    width: 350px;
+    height: 250px;
+    border-radius: 7px;
+}
+.gear-details{
+    margin: 40px 80px 50px 0px;
+
+}
+.gear-details h1{
+     
+    font-weight:600;
+    font-size: 30px;
+ 
+}
+.second-button{
+    width: 150px;
+    height: 40px;
+    padding: 10px 24px 10px 24px;
+    border-radius: 5px;
+    background-color: #E02C6D;
+    color: white;
+    font-weight: 800;
+
+}
+
+/* Footer part css */
+.footer{
+    background-color:#0A0826;
+    width: 100%;
+    height: 220px;  
+}
+.footer-details{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+.footer-details h2{
+    margin-top: 60px;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    text-align: left;
+   margin-bottom: 0;
+
+}
+.footer-details p{
+    
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    color: #D9DBE1;
+    margin-top: 5px;
+    margin-bottom: 0px;
+
+}
+.fa-copyright{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.footer-icons{
+    display: flex;
+    
+}
+.fa-brands{
+    margin-left: 20px;
+    margin-top: 8px;
+
 }

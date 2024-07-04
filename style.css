@@ -1,0 +1,79 @@
+/* Common styles */
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif; 
+    
+    
+}
+/* Heading styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.nav-name{
+    margin-top: 30px ;
+    margin-left: 70px;
+}
+.nav-name h3{
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.nav-menu{
+    margin: 57px 50px 50px 50px;
+    
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;  
+    font-weight: 600;
+    font-size: 16px;
+}
+.first-button{
+    width: 190px;
+    height: 40px;
+    padding: 10px 24px 10px 24px;
+    border-radius: 41px;
+    background-color: #E02C6D;
+    color: white;
+    
+    
+
+}
+
+/* Main part CSS */
+
+/* First Section css*/
+.flexible-container{
+    display: flex;
+
+}
+
+.half-width{
+    width: 50%;
+    margin: 50px 20px 50px 60px;
+}
+.half-width h1{
+    
+    
+    font-weight:700;
+    font-size: 50px;
+}
+.half-width img{
+    width: 440px;
+    height: 414px;
+}
+
+/* Second Section css */
+.nav-logos{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-logos object{
+    margin: 20px;
+}

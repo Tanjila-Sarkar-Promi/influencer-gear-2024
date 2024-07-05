@@ -75,8 +75,9 @@ nav{
 
 
 /* Second Section css */
-.nav-logos{
+.nav-logos nav{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -237,13 +238,18 @@ nav{
     margin-top: 8px;
 
 }
+
+ /* Media queries */
+ /* Mobile device */
 @media only screen and (max-width: 688px) {
 
     /*Nav Side Menu Style*/
+   
 
    .nav-side-menu{
     display: block;
     margin: 40px 0px 30px 30px;
+    
    }
    /* .nav-side-menu:hover.nav-menu{
     display: block;
@@ -280,12 +286,14 @@ nav{
     .flexible-container{
         display: flex;
         flex-direction: column;
+      
     
     
     }
     .half-width{
        width: 100%;
-        margin: 20px 20px 10px 30px;
+         margin: 20px 20px 10px 30px;
+        
     }
    
 
@@ -306,6 +314,7 @@ nav{
 .influencer{
     margin-left: 80px;
 }
+
 .half-width p{
     font-weight: 400;
     font-size: 10px;
@@ -325,12 +334,14 @@ nav{
 
 /* Second Section css */
 .nav-logos nav{
+   
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
    margin-top: 20px;
    margin-left: 8px;
    margin-right: 10px;
+  
 
 }
 
@@ -352,19 +363,17 @@ nav{
 /*fourth section css*/
 
 .gear{
-    margin-top: 40px;
-    margin-left: 10px;
-    margin-bottom: 50px;
+    margin: 0;
 }
 
 .gear-photo img{
     width: 300px;
     height: 200px;
     border-radius: 7px;
-    margin-left: 0;
+    margin: 0;
 }
 .gear-details{
-    margin: 30px 30px 50px 0px;
+     margin: 20px 10px 50px 10px;
 
 }
 .gear-details h1{
@@ -373,16 +382,31 @@ nav{
     font-size: 25px;
  
 }
+.gear-details p{
+    padding: 10px;
+   
+}
+.start{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.place{
+    margin-left: 130px;
+}
 .second-button{
     width: 150px;
     height: 40px;
     padding: 10px 24px 10px 24px;
     border-radius: 5px;
-    background-color: #E02C6D;
-    color: white;
-    font-weight: 800;
+    margin-left: 86px;
 
 }
+
+
+
+
+
 
 
    
